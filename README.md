@@ -126,7 +126,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the filebeat-config.yml file to webservcrs.
+- Copy the filebeat-config.yml file to webservers.
 - Update the filebeat-config.yml file to include...
 - Run the playbook, and navigate to /etc/ansible/files/filebeat-config.yml to check that the installation worked as expected.
 
